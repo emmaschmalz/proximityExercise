@@ -1,36 +1,35 @@
-body {
-  font-family: 'Alegreya', sans-serif;
+body{
+  font-family: "Alegreya";
   padding: 0;
-  margin: 0;
+  margin:0;
 }
-
-#smallRuler {
-  clear: both;
+#smallRuler{
+  clear:both;
+  width: 2000px;
+}
+#bigRuler{
+  clear:both;
   width: 2000px;
 }
 
-#bigRuler {
-  clear: both;
-  width: 2000px;
-}
-
-.bigSegment {
-  width: 99px;
+.bigSegment{
+  width:99px;
   float: left;
-  box-sizing: border-box;
   border-right: 1px solid black;
+  box-sizing: border-box;
   font-size: x-small;
   height: 30px;
 }
 
-.ruledSegment {
-  width: 9px;
+.ruledSegment{
+  width:9px;
   float: left;
   box-sizing: border-box;
   border-right: 1px solid black;
   font-size: xx-small;
-  height: 30px;
+  height: 30px
 }
+
 
 .instructions {
   background-color: #F0F0D8;
